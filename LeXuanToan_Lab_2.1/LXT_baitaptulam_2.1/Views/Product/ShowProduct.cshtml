@@ -1,0 +1,66 @@
+﻿@{
+    ViewBag.Title = "ShowProduct"; 
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h4>Nhạc Việt Nam</h4>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tên Bài Hát</th>
+            <th>Dowload</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>@Html.ActionLink("Bài Hát A", "DetailsProduct", new { songName = "Bài Hát A" })</td>
+            <td>
+                @Html.ActionLink("Tải Về", "EditProduct")
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.ActionLink("Bài Hát B", "DetailsProduct", new { songName = "Bài Hát B" })</td>
+            <td>
+                @Html.ActionLink("Tải Về", "EditProduct")
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.ActionLink("Bài Hát C", "DetailsProduct", new { songName = "Bài Hát C" })</td>
+            <td>
+                @Html.ActionLink("Tải Về", "EditProduct")
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.ActionLink("Bài Hát D", "DetailsProduct", new { songName = "Bài Hát D" })</td>
+            <td>
+                @Html.ActionLink("Tải Về", "EditProduct")
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.ActionLink("Bài Hát E", "DetailsProduct", new { songName = "Bài Hát E" })</td>
+            <td>
+                @Html.ActionLink("Tải Về", "EditProduct")
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.ActionLink("Bài Hát F", "DetailsProduct", new { songName = "Bài Hát F" })</td>
+            <td>
+                @Html.ActionLink("Tải Về", "EditProduct")
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.ActionLink("Bài Hát G", "DetailsProduct", new { songName = "Bài Hát G" })</td>
+            <td>
+                @Html.ActionLink("Tải Về", "EditProduct")
+            </td>
+        </tr>
+        <tr>
+            <td>@Html.ActionLink("Bài Hát H", "DetailsProduct", new { songName = "Bài Hát H"})</td>
+            <td>
+                @Html.ActionLink("Tải Về", "DownloadButton_Click")
+            </td>
+        </tr>
+
+    </tbody>
+</table>
