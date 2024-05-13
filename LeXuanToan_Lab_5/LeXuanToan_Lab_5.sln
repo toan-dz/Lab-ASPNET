@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34601.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeXuanToan_Lab_5", "LeXuanToan_Lab_5\LeXuanToan_Lab_5.csproj", "{01C2D48A-98E2-4363-A096-53206E57DE56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeXuanToan_Lab_5_2", "LeXuanToan_Lab_5_2\LeXuanToan_Lab_5_2.csproj", "{329E197D-8CB0-42A3-84C4-7FA61F42FD10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01C2D48A-98E2-4363-A096-53206E57DE56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C2D48A-98E2-4363-A096-53206E57DE56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C2D48A-98E2-4363-A096-53206E57DE56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C2D48A-98E2-4363-A096-53206E57DE56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{329E197D-8CB0-42A3-84C4-7FA61F42FD10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{329E197D-8CB0-42A3-84C4-7FA61F42FD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{329E197D-8CB0-42A3-84C4-7FA61F42FD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{329E197D-8CB0-42A3-84C4-7FA61F42FD10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDEB7008-DB95-43AA-8FD2-DB48C63553E8}
+	EndGlobalSection
+EndGlobal
